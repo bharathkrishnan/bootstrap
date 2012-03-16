@@ -146,6 +146,41 @@ a:hover {
   color: #005580;
   text-decoration: underline;
 }
+a.bold {
+  font-weight: bold;
+}
+a.orange {
+  color: #fc9200;
+  text-decoration: none;
+}
+a.orange:hover {
+  color: #b06600;
+  text-decoration: underline;
+}
+a.blue {
+  color: #00b7ff;
+  text-decoration: none;
+}
+a.blue:hover {
+  color: #0080b3;
+  text-decoration: underline;
+}
+a.purple {
+  color: #db0d5f;
+  text-decoration: none;
+}
+a.purple:hover {
+  color: #930940;
+  text-decoration: underline;
+}
+a.green {
+  color: #12b812;
+  text-decoration: none;
+}
+a.green:hover {
+  color: #0b720b;
+  text-decoration: underline;
+}
 .row {
   margin-left: -20px;
   *zoom: 1;
@@ -2591,8 +2626,8 @@ input[type="submit"].btn.btn-mini {
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  color: #ffffff;
-  background-color: #0088cc;
+  color: #db0d5f;
+  font-weight: bold;
 }
 .nav-stacked > li {
   float: none;
